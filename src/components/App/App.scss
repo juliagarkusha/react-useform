@@ -1,0 +1,55 @@
+:root {
+  --todo-max-width: 700px;
+  --body-padding: 1.5rem;
+  --gray-400: #818181;
+  --gray-300: #D8D8D8;
+  --gray-200: #DFDFDF;
+  --gray-150: #F9F9F9;
+  --gray-100: #F8F8F8;
+  --gray-50: #EBEFF2;
+  --danger-600: #F26464;
+  --danger-500: #F26464;
+  --danger-400: #FFEEEE;
+  --danger-300: #FFDBDB;
+  --success-500: #DDFCC5;
+  --success-600: #52C41A;
+  --black-500: #121212;
+  --white: #ffffff;
+  --blue-600: #1292DF;
+  --blue-500: #109CF1;
+  --blue-300: #1AA7FD;
+  --yellow-100: #FCF3C5;
+  --green-100: #DDFCC5;
+  --green-200: #47AB16;
+  --gap: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  margin-top: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  div:last-child {
+    display: contents;
+  }
+}
+
+.content {
+  margin-top: 120px;
+  height: calc(100vh - 120px - 3rem);
+  overflow: auto;
+}
